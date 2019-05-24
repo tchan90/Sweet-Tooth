@@ -111,7 +111,8 @@ li.nav-item{
 
 .card-banner-start::before{
     content: "";
-    background-image:url(img/cupcakes3.jpg);
+  /*  background-image:url(img/cupcakes3.jpg); */
+   background-color: white;
     background-repeat:none;
     background-size:cover;
     position:absolute;
@@ -120,7 +121,7 @@ li.nav-item{
    left: 0;
    bottom: 0;
    right: 0;
-   opacity: 0.3;
+   opacity: 0.5;
 }
 
 .card-banner-news{
@@ -136,7 +137,7 @@ li.nav-item{
 
 .card-banner-news::before{
     content: "";
-    background-image:url(img/donut-sprinkles.jpg);
+    background-image:url(img/cupcakes3.jpg);
     background-repeat:none;
     background-size:cover;
     position:absolute;
