@@ -1,0 +1,31 @@
+{
+  "name": "sweet-tooth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchan90/Sweet-Tooth.git"
+  },
+  "author": "tammyc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tchan90/Sweet-Tooth/issues"
+  },
+  "homepage": "https://github.com/tchan90/Sweet-Tooth#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.2.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^1.19.1"
+  }
+}

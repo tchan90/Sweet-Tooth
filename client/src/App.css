@@ -1,0 +1,291 @@
+html{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+}
+
+.main-content{
+  flex: 1 0 auto;
+}
+
+.home-bg{
+  position:absolute;
+  background-image:url('./img/cherry-cake.jpg');
+  width:100%;
+  height:100%;
+  background-size:cover;
+  background-repeat: repeat-x;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+border-bottom: 3px solid #E6D896;
+
+}
+
+.title{
+  font-size:70px;
+  margin-top:50px;
+  justify-content: center;
+  align-items:center;
+  display:flex;
+  text-align:center; 
+  font-family: 'Charm', cursive;
+  color:rgba(230,216,150);
+
+}
+
+.content{
+  position:absolute;
+  width:100%;
+  top:100%;
+  background-color: white ;
+  height:auto;
+
+}
+
+.center{
+  margin: auto;
+  width: 50%;
+}
+
+.subheading{
+  border-top: 1px solid rgba(230,216,150);
+  font-size:20px;
+  text-align:center;
+  padding-top:18px;
+  font-family: 'Roboto', sans-serif;
+  color:rgba(230,216,150);
+
+}
+
+.fixed-top{
+  position: fixed; 
+}
+
+.navbar-color{
+background-color: rgba(17, 18, 18, 0.8) !important;
+border-bottom-color: rgba(230,216,150);
+border-bottom-style:solid;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(230,216,150, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-dark .navbar-toggler{
+  border-color:rgba(230,216,150,0.5) !important;
+}
+
+a.nav-link{
+  font-family: 'Roboto', sans-serif;
+}
+
+.navlink-style{
+  color: #E6D896 !important;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+ 
+}
+
+.navlink-style:hover{
+  color:grey !important;
+  text-decoration: none;
+}
+
+li.nav-item{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.title-position{
+  margin-top:100px;
+}
+
+.content-style{
+  box-shadow: 2px 4px 10px grey;
+  background-color:white;
+}
+
+.height-content{
+  height: 670px;
+}
+
+.image-main-1{
+  /*background-image:url('./img/choc-cake-main-original.jpg');*/
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.image-main-2{
+ /* background-image:url('./img/hot-choc-drink.jpg');*/
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+
+.card-banner-start{
+  font-family: 'Roboto', sans-serif;
+  width:100%;
+  height:100%;
+  min-width: 100%;
+  min-height: 100%;
+  position:relative;
+  display:block;
+}
+
+
+.card-banner-start::before{
+  content: "";
+ /*background-image: url(./img/about-img.jpg);*/
+  background-repeat:none;
+  background-size:cover;
+  position:absolute;
+  z-index: 0;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ opacity: 0.3;
+}
+
+.card-banner-contact{
+  font-family: 'Roboto', sans-serif;
+  width:100%;
+  height:100%;
+  min-width: 100%;
+  min-height: 100%;
+  position:relative;
+  display:block;
+}
+
+
+.card-banner-contact::before{
+  content: "";
+ /* background-image:url('./img/cupcakes3.jpg');*/
+  background-repeat:none;
+  background-size:cover;
+  position:absolute;
+  z-index: 0;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ opacity: 0.5;
+}
+
+.card-banner-title{
+  padding-top:20px;
+  padding-bottom:5px;
+  font-size: 50px;
+  color:black;
+}
+
+
+.feedback-container{
+  background-color:white; 
+  z-index: 1; 
+  position:relative;
+}
+
+.feedback-banner{
+  height:100%;
+}
+
+.feedback-text{
+  text-align: right;
+  display: inline-block;
+  width:50%;
+
+}
+
+.feedback-box{
+ margin-right:auto !important; 
+ margin-left:auto !important;
+}
+
+.feedback-thumbnail{
+  margin-left:40px;
+}
+
+.feedback-text-font{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+.btn-primary {
+  color: #17a2b8 !important; 
+  background-color: white !important;
+  border-color: #17a2b8 !important;
+}
+
+.btn-primary:hover{
+  color: white !important;
+  background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
+}
+
+.footer{
+  background-color: #F2F1F5;
+  flex-shrink: 0;
+  height:100%;
+  border-top: 3px solid #E6D896; 
+ 
+}
+
+.footer-text{
+  display: table;
+  margin: 0 auto;
+  
+}
+
+.footer-style{  
+  list-style:none;
+  text-align:center;
+  min-width: 700px;
+  padding-top: 27px;
+ 
+}
+
+.horizontal-list{
+  display: inline;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.footer-links{
+  color: grey;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.footer-links:hover{
+  color: lightgrey;
+  text-decoration: none;
+}
+
+.footer-text{
+  font-size:15px;
+  text-align:center;
+  margin-top:20px;
+  line-height:0.5;
+
+}
+
+.footer-smalltxt{
+  margin-top:20px;
+  background-color: grey;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align:right;
+  line-height: 0.2;
+}
+
+
