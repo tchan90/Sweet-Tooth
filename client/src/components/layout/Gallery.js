@@ -69,7 +69,7 @@ class Gallery extends Component {
               onExiting={this.onExiting}
               onExited={this.onExited}
               key={item.src}
-              className="carousel slide mt-2"
+              className="carousel slide mt-5 mb-5"
             >
               <img src={item.src} alt={item.altText} className="d-block w-100" />
               <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
@@ -78,7 +78,8 @@ class Gallery extends Component {
         });
     
         return (
-            <div className="container h-50" id="gallery">
+          <div className="container-fluid gallery-bg"> 
+            <div className="container h-50 mt-2" id="gallery">
           <Carousel
             activeIndex={activeIndex}
             next={this.next}
@@ -89,7 +90,7 @@ class Gallery extends Component {
             <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
             <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
           </Carousel>
-          </div>
+          </div></div>
         );
       }
     }

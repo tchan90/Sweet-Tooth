@@ -34,24 +34,27 @@ class Contact extends Component {
         return (
                  <Container className = "card-banner-contact">
                 <Row className = "mt-2 text-center ">
-                  <Col lg="6" className = "m-auto pb-3 feedback-bg">
-                      <h1 className="card-banner-title m-auto" id="contact">Contact Us</h1>
-                      <FontAwesomeIcon icon="comments" size="3x" className="mb-2"/>
-                      <h3>Fill the form below</h3>
-                      <Form onSubmit={this.handleSubmit}>
-                        <FormGroup>
-                        <Input type="text" name="firstName"  className="form-control" placeholder="First Name" onChange={this.handleChange}/>
+                  <Col lg="8" className = "m-auto feedback-bg">
+                      <Form onSubmit={this.handleSubmit} className="mb-4 footer-margin">
+                       <Row form>
+                         <Col md={6}>
+                         <FormGroup>
+                        <Input type="text" name="firstName"  className="form-control" size="md" placeholder="First Name" onChange={this.handleChange}/>
                         </FormGroup>
-                        <FormGroup> 
-                        <Input type="text" name="lastName"  className="form-control mt-2" placeholder="Last Name" onChange={this.handleChange}/>
+                           </Col>
+                           <Col md={6}>
+                         <FormGroup>
+                        <Input type="text" name="lastName"  className="form-control" size="md" placeholder="Last Name" onChange={this.handleChange}/>
                         </FormGroup>
+                           </Col>
+                       </Row>
                         <FormGroup> 
-                        <Input type="text" name="email" className="form-control mt-2" placeholder="Email" onChange={this.handleChange}/>
+                        <Input type="text" name="email" className="form-control mt-2" size="md" placeholder="Email" onChange={this.handleChange}/>
                         </FormGroup> 
                          <FormGroup>
                          <Input type="textarea" name="message" onChange={this.handleChange} placeholder="Message" />
                       </FormGroup>
-                        <Button type="submit" className="btn btn-primary btn-black btn-lg btn-block mt-3">Send</Button>
+                        <Button outline size="sm" block type="submit" className="mt-3">Send</Button>
                     </Form>
                   </Col>
                 </Row>
