@@ -1,2 +1,4 @@
 #Ignore img files
 img/
+node_modules
+.env
