@@ -8,5 +8,5 @@ Front-end project for Tafe
 </ul>
 
 <h2>Online marketting tools implemented</h2>
--Working contact form / email service
--Google analytics
+<li>Working contact form / email service</li>
+<li>Google analytics</li>
