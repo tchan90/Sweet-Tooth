@@ -5,7 +5,6 @@ import Hero from './components/layout/Hero';
 import About from './components/layout/About';
 import Cards from './components/layout/Cards';
 import Gallery from './components/layout/Gallery';
-import Contact from './components/layout/Contact';
 import Footer from './components/layout/Footer';
 
 
@@ -33,7 +32,6 @@ class App extends Component {
         <About/>
         <Cards/>
         <Gallery/>
-        <Contact/>
         <Footer/>
         </div>
         </div>
