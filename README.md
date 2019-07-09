@@ -1,5 +1,6 @@
-# Sweet-Tooth
-Front-end project for Tafe. Topic: Online Marketing 
+# Sweet Tooth
+Front-end project for Tafe, simple website for a dessert buffet restaurant. Includes simple navbar, hero image, cards, about page, contact page and footer.
+Topic: Online Marketing 
 
 <h1>Programs used</h1>
 <ul>
