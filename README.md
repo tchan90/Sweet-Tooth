@@ -1,7 +1,7 @@
 # Sweet Tooth
 Front-end project for Tafe course Online Marketing subject, simple website for a dessert buffet restaurant. Includes responsive navbar, hero image, cards, about page, contact page and footer. Using a Reactstrap framework.
 
-<h1>Programs used</h1>
+<h1>Components</h1>
 <ul>
   <li>NodeJS</li>
   <li>React</li>
